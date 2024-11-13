@@ -116,3 +116,40 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+.bullet-list {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    margin-top: 10px;
+}
+
+.bullet-list li {
+    margin-bottom: 10px; 
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+label {
+    font-size: 1.1em;
+}
+
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    background-color: #1f1b44;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #3d356c;
+}
